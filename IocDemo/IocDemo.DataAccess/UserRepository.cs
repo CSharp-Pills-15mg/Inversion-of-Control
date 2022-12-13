@@ -1,6 +1,6 @@
 ﻿namespace IocDemo.DataAccess;
 
-public class UserRepository
+public class UserRepository : IUserRepository
 {
     public IEnumerable<User> GetAll()
     {

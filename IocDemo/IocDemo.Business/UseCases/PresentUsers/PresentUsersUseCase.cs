@@ -4,9 +4,9 @@ namespace IocDemo.Business.UseCases.PresentUsers;
 
 public class PresentUsersUseCase
 {
-    private readonly UserRepository userRepository;
+    private readonly IUserRepository userRepository;
 
-    public PresentUsersUseCase(UserRepository userRepository)
+    public PresentUsersUseCase(IUserRepository userRepository)
     {
         this.userRepository = userRepository ?? throw new ArgumentNullException(nameof(userRepository));
     }
