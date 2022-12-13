@@ -1,4 +1,4 @@
-﻿using IocDemo.Business.DataAccess;
+﻿using IocDemo.DataAccess;
 
 namespace IocDemo.Business.UseCases.PresentUsers;
 

@@ -1,5 +1,5 @@
-﻿using IocDemo.Business.DataAccess;
-using IocDemo.Business.UseCases.PresentUsers;
+﻿using IocDemo.Business.UseCases.PresentUsers;
+using IocDemo.DataAccess;
 using IocDemo.Presentation;
 
 namespace IocDemo.Bootstrapper;

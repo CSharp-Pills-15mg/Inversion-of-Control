@@ -1,4 +1,4 @@
-﻿namespace IocDemo.Business.DataAccess;
+﻿namespace IocDemo.DataAccess;
 
 public enum Gender
 {
