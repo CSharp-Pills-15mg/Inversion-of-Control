@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IocDemo", "IocDemo\IocDemo.csproj", "{84549F57-0A5E-40A6-BF28-03E31B1F22F4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IocDemo.Bootstrapper", "IocDemo.Bootstrapper\IocDemo.Bootstrapper.csproj", "{84549F57-0A5E-40A6-BF28-03E31B1F22F4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IocDemo.Business", "IocDemo.Business\IocDemo.Business.csproj", "{3A33CCD9-F8FE-47C0-A673-B903916C8BB3}"
 EndProject
