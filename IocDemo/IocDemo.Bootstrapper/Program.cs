@@ -2,7 +2,7 @@
 using IocDemo.Business.UseCases.PresentUsers;
 using IocDemo.Presentation;
 
-namespace IocDemo;
+namespace IocDemo.Bootstrapper;
 
 internal static class Program
 {
