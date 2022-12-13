@@ -7,7 +7,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\IocDemo.Business\IocDemo.Business.csproj" />
+      <ProjectReference Include="..\IocDemo.Ports.DataAccess\IocDemo.Ports.DataAccess.csproj" />
     </ItemGroup>
 
 </Project>

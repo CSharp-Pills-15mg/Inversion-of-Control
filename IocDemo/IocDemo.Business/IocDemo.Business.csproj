@@ -6,4 +6,8 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\IocDemo.Ports.DataAccess\IocDemo.Ports.DataAccess.csproj" />
+    </ItemGroup>
+
 </Project>

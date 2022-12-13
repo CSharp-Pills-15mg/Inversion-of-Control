@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IocDemo.Presentation", "Ioc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IocDemo.DataAccess", "IocDemo.DataAccess\IocDemo.DataAccess.csproj", "{BD6A858A-B3B3-43DE-92C0-895B032245D7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IocDemo.Ports.DataAccess", "IocDemo.Ports.DataAccess\IocDemo.Ports.DataAccess.csproj", "{DA22AD81-4A02-4BCF-8F42-C8552688B039}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{BD6A858A-B3B3-43DE-92C0-895B032245D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD6A858A-B3B3-43DE-92C0-895B032245D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD6A858A-B3B3-43DE-92C0-895B032245D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA22AD81-4A02-4BCF-8F42-C8552688B039}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA22AD81-4A02-4BCF-8F42-C8552688B039}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA22AD81-4A02-4BCF-8F42-C8552688B039}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA22AD81-4A02-4BCF-8F42-C8552688B039}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
