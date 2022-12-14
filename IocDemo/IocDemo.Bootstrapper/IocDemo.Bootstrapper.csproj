@@ -8,8 +8,8 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\IocDemo.Business\IocDemo.Business.csproj" />
-        <ProjectReference Include="..\IocDemo.Presentation\IocDemo.Presentation.csproj" />
+        <ProjectReference Include="..\IocDemo.Business\IocDemo.Business.csproj" PrivateAssets="All" />
+        <ProjectReference Include="..\IocDemo.Presentation\IocDemo.Presentation.csproj" PrivateAssets="All" />
     </ItemGroup>
 
 </Project>
