@@ -11,7 +11,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\IocDemo.Business\IocDemo.Business.csproj" />
+        <ProjectReference Include="..\IocDemo.Business\IocDemo.Business.csproj" PrivateAssets="All" />
     </ItemGroup>
 
 </Project>
