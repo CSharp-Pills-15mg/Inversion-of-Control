@@ -1,4 +1,4 @@
-﻿namespace IocDemo.DataAccess;
+﻿namespace IocDemo.Ports.DataAccess;
 
 public interface IUserRepository
 {

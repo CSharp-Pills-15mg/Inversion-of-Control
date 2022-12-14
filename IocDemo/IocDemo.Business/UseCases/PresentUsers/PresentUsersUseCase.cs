@@ -1,4 +1,4 @@
-﻿using IocDemo.DataAccess;
+﻿using IocDemo.Ports.DataAccess;
 
 namespace IocDemo.Business.UseCases.PresentUsers;
 
@@ -12,7 +12,7 @@ public class PresentUsersUseCase
     }
 
     public PresentUsersResponse Execute(PresentUsersRequest request)
-    {
+    { 
         IEnumerable<User> users = userRepository.GetAll();
 
         if (!string.IsNullOrEmpty(request.Name))
@@ -26,7 +26,9 @@ public class PresentUsersUseCase
 
         return new PresentUsersResponse
         {
-            Users = users.ToList()
+            Users = users
+                .Select(x=> new UserResponse(x))
+                .ToList()
         };
     }
 }

@@ -10,6 +10,7 @@
     <ItemGroup>
         <ProjectReference Include="..\IocDemo.Business\IocDemo.Business.csproj" PrivateAssets="All" />
         <ProjectReference Include="..\IocDemo.DataAccess\IocDemo.DataAccess.csproj" PrivateAssets="All" />
+        <ProjectReference Include="..\IocDemo.Ports.DataAccess\IocDemo.Ports.DataAccess.csproj" PrivateAssets="All" />
         <ProjectReference Include="..\IocDemo.Presentation\IocDemo.Presentation.csproj" PrivateAssets="All" />
     </ItemGroup>
 
